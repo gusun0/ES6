@@ -8,7 +8,7 @@
   "webpack-cli": "^3.3.12"
  },
  "scripts": {
-  "build": "webpack",
+  "build": "webpack --watc --watch",
   "build-babel": "babel src -d output --watch"
  }
 }
